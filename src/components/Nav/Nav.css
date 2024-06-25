@@ -1,30 +1,42 @@
 .nav-container {
     width: 100vw;
-    height: 100px;
-    background-color: rgb(43, 43, 43);
+    height: 80px;
+    background-color: #e7e7e7;
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: "Poppins", sans-serif;
 }
 
 .nav-logo-container {
     width: 10%;
     height: 100%;
-    background-color: rgb(99, 98, 98);
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+.nav-logo-container span {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #45474B;
+    border-radius: 50%;
+}
+
+
+
 .nav-logo-container img {
-    width: 120px;
-    padding-top: 20px;
+    width: 50px;
+    padding-top: 5px;
+
 }
 
 .nav-items-container {
     width: 70%;
     height: 100%;
-    background-color: rgb(122, 121, 121);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -34,39 +46,68 @@
     display: flex;
 }
 
-.nav-items-container ul li{
+.nav-items-container ul li {
     list-style: none;
-    
+
 }
 
-.nav-items-container ul li a{
+.nav-items-container ul li a {
     padding-inline: 20px;
     text-decoration: none;
+    color: #45474B;
 
 }
 
 .nav-accesibility-container {
     width: 20%;
     height: 100%;
-    background-color: rgb(61, 61, 61);
     display: flex;
     justify-content: center;
     align-items: center;
+
 
 }
 
 .nav-accesibility-container ul {
     display: flex;
-}
-
-.nav-accesibility-container ul li{
-    list-style: none;
     
 }
 
-.nav-accesibility-container ul li a{
+.nav-accesibility-container ul li {
+    list-style: none;
+
+
+}
+
+.nav-accesibility-container ul li a {
     padding-inline: 20px;
     text-decoration: none;
-    
+    cursor: pointer;
+    color: #45474B;
 
+
+}
+
+.custom-dropdown .ant-dropdown-menu {
+    border-radius: 0 !important;
+    /* Quita el borde redondeado */
+    margin-top: 25px !important;
+    /* Añade un margen superior de 100px */
+    font-family: "Poppins", sans-serif;
+    background-color: #e7e7e7;
+    cursor: pointer;
+}
+
+.custom-dropdown-container {
+    background-color: transparent;
+    border-radius: 0 !important;
+    cursor: pointer;
+}
+
+.custom-submenu-item {
+    font-family: "Poppins", sans-serif;
+    background-color: #e7e7e7;
+    border-radius: 0 !important;
+    margin-left: 20px;
+    cursor: pointer;
 }
